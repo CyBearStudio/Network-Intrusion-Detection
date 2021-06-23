@@ -1,0 +1,23 @@
+We define 4 metrics : 
+
+TP = True Positive
+FP = False Positive
+TN = True Negative
+FN= False Negative
+
+
+Accuracy   or   Proportion   Correct:   (TP + TN)/(TP + TN + FP + FN).  When  classes  are  balanced,this is a good measure; 
+however, when classes areunbalanced (e.g., 97% of items belong to class X and3% to class Y, if all the items are classified as X, the 
+accuracy would be 97% but all items from class Y would be misclassified), this metric is not very useful.
+
+Positive Predictive Value (PPV) or Precision: TP/(TP+FP). Ratio of items correctly classified as X to all items classified as X.
+
+Sensitivity or Recall or True Positive Rate or Probabilityof Detection (PD) or Detection Rate: TP/(TP+FN).R
+atio of items correctly classified as X to all items thatbelong to class X.•Negative Predictive Value (NPV): TN/(TN+FN).
+Ratio of items correctly classified as negatives (not X) to all items classified as not X.
+
+
+Specificity or TN Rate: TN/(TN+FP). Ratio of itemscorrectly classified as negatives (not X) to all items that belong to class not X.
+
+FAR or FP Rate or Fall-out: FP/(TN+FP).FAR=1-Specificity. Ratio of items incorrectly classified as pos-itives (X) to all items that belong to a class not X.
+
