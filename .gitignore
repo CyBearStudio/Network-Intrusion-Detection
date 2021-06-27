@@ -89,5 +89,5 @@ ENV/
 .ropeproject
 
 data/
-.csv
+*.csv
  
